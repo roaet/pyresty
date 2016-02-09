@@ -17,6 +17,12 @@ Add a host to the configuration (ad-hoc hosts to be added soon):
 $ pyresty add localhost http://localhost:8000/v2.0
 ```
 
+Set the global host to your target:
+
+```
+$ pyresty localhost
+```
+
 Make requests:
 
 ```
@@ -24,6 +30,12 @@ $ GET /things
 {[{"id": 1, "name": "superwidget"}, {"id": 2, "name": "not_cool_widget"}]}
 
 $ DELETE /things/1
+```
+
+Switch hosts if you want:
+
+```
+$ pyresty production_server
 ```
 
 ##Upcoming Features:
