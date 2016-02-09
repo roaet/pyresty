@@ -45,3 +45,5 @@ $ pyresty production_server
 * token loading from environment
 * auth plugins
 * host sections with more options
+* output options
+* vi integration
